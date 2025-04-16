@@ -4,3 +4,4 @@ openai==1.74.0
 PyMuPDF==1.25.5
 python-dotenv==1.1.0
 pandas==2.2.3
+PyPDF2
