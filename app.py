@@ -76,6 +76,7 @@ def handle_userinput(user_question):
 # -------- Main Streamlit App --------
 def main():
     load_dotenv()
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
     st.write(css, unsafe_allow_html=True)
 
     if "conversation" not in st.session_state:
